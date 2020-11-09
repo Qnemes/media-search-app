@@ -1,0 +1,21 @@
+.img-wrapper {
+	width: 100%;
+	display: grid;
+	margin: 10px auto 0 auto;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	grid-auto-rows: 10px;
+	grid-gap: 1px 5px;
+}
+.img-wrapper div:nth-child(1),
+.img-wrapper div:nth-child(2),
+.img-wrapper div:nth-child(3) {
+	align-self: flex-start;
+}
+.img-wrapper div {
+	justify-self: center;
+	align-self: center;
+}
+.img-wrapper img {
+	border-radius: 5px;
+	width: 250px;
+}

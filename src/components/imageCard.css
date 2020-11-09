@@ -1,0 +1,21 @@
+.modal {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.modal-wrapper {
+	background-color: whitesmoke;
+	min-width: 30%;
+}
+.modal-img {
+	display: block;
+	margin: 0 auto;
+	height: 28rem;
+}
+.modal-description {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 1.5rem;
+	word-wrap: break-word;
+}
