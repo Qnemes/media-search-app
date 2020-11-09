@@ -5,10 +5,6 @@ import backgroundImage from '../img/background_1920.jpg'
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from "@material-ui/core/styles";
-import bg_1920 from '../img/background_1920.jpg'
-import bg_640 from '../img/background_640.jpg'
-import bg_1399 from '../img/background_1399.jpg'
-import bg_2400 from '../img/background_2400.jpg'
 
 const useStyles = makeStyles({
     container: {
